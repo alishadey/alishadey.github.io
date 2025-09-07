@@ -8,7 +8,9 @@
     <meta name="description" content="Alisha Dey">
     <meta name="author" content="Alisha Dey">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Source+Sans+3:wght@700;800&display=swap' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <title>Alisha Dey - Don't Buy It</title>
   </head>
@@ -44,12 +46,43 @@
       <div class='portfolio-heading'>Creative Process</div>
       <div class='portfolio-body'>
        <div class='portfolio-body'>My contributions were focused on ensuring the spatial and visual cohesion of the exhibit. I led the design of interactive panels and displays, working closely with teammates to transform complex research into accessible storytelling. We incorporated real-world objects (e.g., an evolution of reusable water bottles) and a social media loop to immerse visitors in the tension between environmental concern and consumerist habits. The exhibit was iterative, shaped by feedback from peers and faculty throughout its development. 
-         <div class='portfolio-image'>
-        <img src='portfolio/bnpl/bnpl-methods.png'></div>
-         <div class='portfolio-image'>
-        <img src='portfolio/bnpl/bnpl-methods.png'></div>
-         <div class='portfolio-image'>
-        <img src='portfolio/bnpl/bnpl-methods.png'></div>
+        <div class='portfolio-quad-grid'>
+          <div class='quad-cell'>
+            <div class='pre-image-caption'>Birds eye view of the exhibit</div>
+            <a class='quad-item' href='#lb-birds-eye'>
+              <img src='assets/museum_assets/birds_eye.png' alt='Birds eye'>
+              <span class='zoom-caption-overlay'>(click to enlarge)</span>
+            </a>
+          </div>
+          <div class='quad-cell'>
+            <div class='pre-image-caption'>1st Iteration of the logo</div>
+            <a class='quad-item' href='#lb-logo-one'>
+              <img src='assets/museum_assets/logo_one.png' alt='Logo one'>
+              <span class='zoom-caption-overlay'>(click to enlarge)</span>
+            </a>
+          </div>
+          <div class='quad-cell'>
+            <div class='pre-image-caption'>2nd Iteration of the logo</div>
+            <a class='quad-item' href='#lb-logo-two'>
+              <img src='assets/museum_assets/logo_two.png' alt='Logo two'>
+              <span class='zoom-caption-overlay'>(click to enlarge)</span>
+            </a>
+          </div>
+          <div class='quad-cell'>
+            <div class='pre-image-caption'>3rd Iteration of the logo</div>
+            <a class='quad-item' href='#lb-logo-three'>
+              <img src='assets/museum_assets/logo_three.png' alt='Logo three'>
+              <span class='zoom-caption-overlay'>(click to enlarge)</span>
+            </a>
+          </div>
+        </div>
+        <div class='portfolio-image'>
+          <div class='pre-image-caption' style='width:75%; margin:0 auto 6px auto;'>Final digital mockup</div>
+          <a href='#lb-mockup'>
+            <img src='assets/museum_assets/museum_mockup.png' alt='Museum mockup'>
+          </a>
+          <div class='click-caption'>(click to enlarge)</div>
+        </div>
       </div> 
       </div> 
       <div class="portfolio-heading">Challenges</div>
@@ -65,10 +98,44 @@
         <li>Received praise for the clarity, design execution, and impact of the exhibit experience</li>
         <li>Strengthened my skills in collaborative design, exhibit prototyping, and critical visual communication</li>
         </div>
-        <div class='portfolio-image'>
-        <img src='portfolio/bnpl/bnpl-methods.png'></div>
-     
+        
       
+      <div class='portfolio-heading'>Interactive Walkthrough</div>
+      <div class='embed-wrap'>
+        <iframe src='https://my.matterport.com/show/?m=Jcm4wtNyn6s&ss=34&sr=-2.45%2C-.97&tag=RVPpqxmhHQc&pin-pos=-7.06%2C1.19%2C7.71' allowfullscreen loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>
+      </div>
+      <div class='portfolio-body' style='text-align:center'>
+        <a href='https://my.matterport.com/show/?m=Jcm4wtNyn6s&ss=34&sr=-2.45%2C-.97&tag=RVPpqxmhHQc&pin-pos=-7.06%2C1.19%2C7.71' target='_blank' rel='noopener noreferrer'>Checkout my full museum here!</a>
+      </div>
+
+      <!-- Lightboxes for click-to-enlarge images -->
+      <a id='lb-close-anchor'></a>
+      <div id='lb-birds-eye' class='lightbox'>
+        <a href='#lb-close-anchor' class='lightbox-backdrop' aria-label='Close'></a>
+        <a href='#lb-close-anchor' class='lightbox-close'>Close</a>
+        <img src='assets/museum_assets/birds_eye.png' alt='Birds eye'>
+      </div>
+      <div id='lb-logo-one' class='lightbox'>
+        <a href='#lb-close-anchor' class='lightbox-backdrop' aria-label='Close'></a>
+        <a href='#lb-close-anchor' class='lightbox-close'>Close</a>
+        <img src='assets/museum_assets/logo_one.png' alt='Logo one'>
+      </div>
+      <div id='lb-logo-two' class='lightbox'>
+        <a href='#lb-close-anchor' class='lightbox-backdrop' aria-label='Close'></a>
+        <a href='#lb-close-anchor' class='lightbox-close'>Close</a>
+        <img src='assets/museum_assets/logo_two.png' alt='Logo two'>
+      </div>
+      <div id='lb-logo-three' class='lightbox'>
+        <a href='#lb-close-anchor' class='lightbox-backdrop' aria-label='Close'></a>
+        <a href='#lb-close-anchor' class='lightbox-close'>Close</a>
+        <img src='assets/museum_assets/logo_three.png' alt='Logo three'>
+      </div>
+      <div id='lb-mockup' class='lightbox'>
+        <a href='#lb-close-anchor' class='lightbox-backdrop' aria-label='Close'></a>
+        <a href='#lb-close-anchor' class='lightbox-close'>Close</a>
+        <img src='assets/museum_assets/museum_mockup.png' alt='Museum mockup'>
+      </div>
+
       <div class='portfolio-body'>Thank you for reading!</div>
     </div>
     <div class="copyright"> © 2025 Alisha Dey </div>
