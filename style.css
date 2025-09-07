@@ -224,6 +224,8 @@ ul,ol{ margin:0 0 .8em 1.25em; padding-left:1em; }
   font-family:var(--font-heading);
   text-align:left;
 }
+/* Align index page heading with project grid */
+.home-body .portfolio-heading{ width:75%; margin-left:auto; margin-right:auto; text-align:center; }
 .portfolio-subheading{
   margin-top:var(--space-4);
   margin-bottom:var(--space-2);
@@ -378,6 +380,9 @@ ul,ol{ margin:0 0 .8em 1.25em; padding-left:1em; }
   .nav-name{ display:block; font-size:20px; }
   .nav-items{ gap:var(--space-2); }
   .back-button{ visibility:hidden; }
+  /* Add comfortable side margins on small screens */
+  .portfolio-post{ padding-left:var(--space-3); padding-right:var(--space-3); }
+  .home-body{ padding-left:var(--space-3); padding-right:var(--space-3); }
 }
 
 /* ========== Motion Preference ========== */
