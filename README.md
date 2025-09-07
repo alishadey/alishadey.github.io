@@ -32,7 +32,7 @@ I care a lot about readability and accessibility. You’ll see generous spacing,
 - Email: alisha.dey@mail.utoronto.ca
 - LinkedIn: linkedin.com/in/alishadey
 
-If you’re into people-centred design, city spaces, or delightful little details in everyday life, we’ll get along.
+If you’re into human-centred design, city spaces, or delightful little details in everyday life, we’ll get along.
 
 ## Credits & thanks
 
