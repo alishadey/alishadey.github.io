@@ -302,6 +302,15 @@ ul,ol{ margin:0 0 .8em 1.25em; padding-left:1em; }
   padding:2px 6px; border-radius:10px;
 }
 
+/* Smaller photos on BING-EO */
+.bingeo-post img {
+  width: 70%;
+  max-width: 700px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
 /* Click-to-enlarge lightbox (CSS-only) */
 .lightbox{ position:fixed; inset:0; background:rgba(0,0,0,0.85); display:none; align-items:center; justify-content:center; padding:var(--space-4); z-index:1000; cursor:zoom-out; }
 .lightbox:target{ display:flex; }
