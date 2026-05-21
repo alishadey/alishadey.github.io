@@ -10,6 +10,7 @@ Welcome to my little corner of the internet! This website shares some of my pass
 
 - A friendly home page with a smiling face (hi!) and a quick hello.
 - A few project stories I’m proud of:
+  - BING-EO: Reimagining the Internship Experience at Elections Ontario
   - Beyond the Playground — designing for children in public spaces.
   - KWMUnity — collaboration, community, and creative problem‑solving.
   - Don’t Buy It — an interactive museum exhibit about sustainable consumption.
